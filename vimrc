@@ -99,4 +99,12 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+:set number
+:set tabstop=5
+:set shiftwidth=5
+:set expandtab
+
+set nobackup
+set nowritebackup
+
 command! Status echo "All systems are go!"
